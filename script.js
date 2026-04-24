@@ -1,7 +1,7 @@
 function remove(input){
     let array = input.split('');
     return array.reduce(function(accumulator, item){
-        if(item !== ' '){
+        if(item !== ','){
             accumulator.push(item);
         }
         return accumulator;
